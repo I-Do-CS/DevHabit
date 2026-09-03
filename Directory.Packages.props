@@ -3,19 +3,13 @@
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
   </PropertyGroup>
   <ItemGroup>
-    <!-- Containerization -->
-    <PackageVersion
-      Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets"
-      Version="1.23.0"
-    />
-
-    <!-- Code Analysis -->
+    <PackageVersion Include="EFCore.NamingConventions" Version="9.0.0" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.1" />
+    <PackageVersion Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.23.0" />
+    <PackageVersion Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
+    <PackageVersion Include="Npgsql.OpenTelemetry" Version="9.0.5" />
     <PackageVersion Include="SonarAnalyzer.CSharp" Version="10.33.0.1635" />
-
-    <!-- Documentation -->
     <PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="9.0.19" />
-
-    <!-- Observability & Instrumentation-->
     <PackageVersion Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.18.0" />
     <PackageVersion Include="OpenTelemetry.Extensions.Hosting" Version="1.18.0" />
     <PackageVersion Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.18.0" />
